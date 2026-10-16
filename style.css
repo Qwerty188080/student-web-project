@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #20243a;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 56px auto;
+  padding: 36px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 18px 50px rgba(31, 41, 55, 0.10);
+}
+
+.hero {
+  padding: 18px 0 28px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.eyebrow {
+  color: #5754d9;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+h1 {
+  max-width: 700px;
+  margin: 8px 0 14px;
+  font-size: clamp(2rem, 5vw, 3.3rem);
+  line-height: 1.12;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.6rem;
+}
+
+.intro {
+  max-width: 650px;
+  color: #5b6477;
+  font-size: 1.1rem;
+}
+
+.projects {
+  display: grid;
+  gap: 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.projects li {
+  padding: 18px 20px;
+  background: #f7f8ff;
+  border: 1px solid #e5e7ff;
+  border-radius: 12px;
+}
+
+.projects strong,
+.projects span {
+  display: block;
+}
+
+.projects span {
+  margin-top: 4px;
+  color: #687086;
+}
+
+footer {
+  margin-top: 32px;
+  color: #737b8c;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 20px auto;
+    padding: 22px;
+  }
+}
